@@ -1,5 +1,4 @@
-// ⚠️ Troque pelo endpoint que o Formspree te deu (formspree.io/f/xxxxabcd)
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/SEU_ID_AQUI';
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xbglawjw';
 
 const noBtn = document.getElementById('no');
 const yesBtn = document.getElementById('yes');
