@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Convite</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hearts" id="hearts"></div>
+
+<div class="card">
+  <div id="question" class="step show">
+    <div class="avatar">🐻</div>
+    <h1 id="questionText">Topa marcar<br>um encontro comigo?</h1>
+    <div class="buttons">
+      <button id="yes">SIM</button>
+      <button id="no">NÃO</button>
+    </div>
+  </div>
+
+  <div class="step" id="typeStep">
+    <div class="avatar small">🎉</div>
+    <h1>Que tipo de encontro<br>você prefere?</h1>
+    <div class="options">
+      <button class="option" data-type="Cinema" data-emoji="🎬">🎬 Cinema</button>
+      <button class="option" data-type="Jantar" data-emoji="🍽️">🍽️ Jantar</button>
+      <button class="option" data-type="Passeio ao ar livre" data-emoji="🌳">🌳 Passeio ao ar livre</button>
+      <button class="option" data-type="Café" data-emoji="☕">☕ Café</button>
+    </div>
+  </div>
+
+  <div class="step" id="dateStep">
+    <div class="avatar small" id="dateAvatar">📅</div>
+    <h1>Agora escolhe<br>o dia!</h1>
+    <input type="date" id="dateInput" class="date-input">
+    <button id="confirmDate" class="confirm-btn">Confirmar</button>
+  </div>
+
+  <div class="result step" id="result">
+    <h2 id="resultTitle">Combinado!</h2>
+    <p id="resultText">Mal posso esperar 💕</p>
+  </div>
+
+  <footer>feito com carinho 💕</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
